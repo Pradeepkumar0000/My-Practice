@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medai Queries</title>
+    <style>
+        .box{
+
+            font-size: 30px;
+            text-align: center;
+            background-color: red;
+            color:white;
+            display: none;
+        }
+        @media(max-width:300px){
+            #box1{
+                display: block;
+                background-color: aqua;
+            }
+        }
+        @media(min-width:300px) and (max-width:500px){
+            #box2{
+                display: block;
+                background-color: blueviolet;
+            }
+        }
+        @media(min-width:500px) and (max-width:800px){
+            #box3{
+                display: block;
+                background-color: rgb(11, 174, 68);
+            }
+        }
+        @media(min-width:800px){
+            #box4{
+                display: block;
+                background-color: rgb(226, 14, 14);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Mai ek iphone hoon</div>
+    <div class="box" id="box2">Mai ek Tablet hoon</div>
+    <div class="box" id="box3">Mai ek desktop Computer hoon</div>
+    <div class="box" id="box4">Mai ek widetscreen Computer hoon</div>
+    
+</body>
+</html>

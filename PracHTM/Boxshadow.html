@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text Shadow</title>
+    <style>
+        .contenar{
+            display: flex;
+        }
+        .card{
+            padding: 23px 12px;
+            margin: 23px 12px;
+            /* border: 2px solid red; */
+            background-color: crimson;
+            /* box-shadow: offset-x offset-y color ; */            
+            /* box-shadow: offset-x offset-y blu-radius color ; */            
+            /* box-shadow: offset-x offset-y blu-radius spread-radius color ; */            
+
+            /* box-shadow: 10px 8px green; */
+            /* box-shadow: -10px - 8px green; */
+            /* box-shadow: 9px 7px 10px green; */
+            /* box-shadow: -9px -7px 10px 35px  rgba(34, 184,184, 0.5); */
+            box-shadow: inset 3px 5px green 6px 8px red;
+        }
+        .card h2{
+            /* text-shadow: 2px 2px white; */
+            text-shadow: 2px 2px 2px white;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="contenar">
+        <div class="card" id="card-1">
+       <h2>This is a C++ Courese</h2>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid maxime explicabo minima atque quibusdam quaerat alias laborum autem sint architecto dolorem maiores eum vel et nesciunt dicta quos nostrum, ut deleniti? Dolore natus blanditiis sit.</p>
+    </div>
+
+        <div class="card" id="card-2">
+        <h2>This is HTML Courese</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, aliquid enim autem quae ea molestias eius aperiam, laudantium vel veniam, harum dignissimos velit ipsa distinctio. Quis quisquam dolore dolores vel sequi odio error, repellat nam!
+        </p>
+    </div>
+
+        <div class="card" id="card-3">
+        <h2>Card3</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi quaerat aliquam veritatis vero, pariatur, rerum sed fuga vel architecto, unde cumque ipsa. Tempore ipsum quisquam at qui! Saepe quas earum eum, debitis itaque sint eligendi.
+        </p>
+    </div>
+
+    </div>
+    
+</body>
+</html>
