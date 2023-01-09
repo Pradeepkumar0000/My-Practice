@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <script src="https://kit.fontawesome.com/64d8d669be.js" crossorigin="anonymous"></script>
+</head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .fa-sharp{
+        color: white;
+        font-size: 35px;
+        padding: 10px;
+        margin: 5px;
+    }
+
+    nav{
+        overflow: hidden;
+        background-color: #0f131f;
+        margin: 5px;
+    }
+
+    nav b{
+        color: white;
+        font-size: 25px;
+    }
+
+    nav ul{
+        float: right;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        position: relative;
+        /* color: white; */
+    }
+
+    nav ul li{
+        display: inline-block;
+        background-color: #0f131f;
+
+    }
+
+    nav ul li a{
+        float: right;
+        text-decoration: none;
+        color: white;
+        list-style: none;
+    }
+
+    nav a{
+        display: block;
+        padding: 0 10px;
+        color: #fff;
+        font-size: 20px;
+        line-height: 60px;
+        text-decoration: none;
+    }
+
+    nav ul ul{
+    display: none;
+    position: relative;
+    top: 60px;
+}
+    /* nav ul li:hover >ul{
+    display: inherit;
+} */
+    /* nav ul ul li{
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+} */
+</style>
+<body>
+    <div class="navbar">
+        <nav>
+            <i class="fa-sharp fa-solid fa-video"></i>
+            <b>RESPONSIVE</b>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">Services</a>
+                    <ul>
+                        <li><a href="#">SEO Optimisation</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Web Desing</a></li>
+                        <li><a href="#">Software Development</a></li>
+                        <li><a href="#">Branding</a></li>
+                        <li><a href="#">Contact Writing</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </div>
+</body>
+</html>
